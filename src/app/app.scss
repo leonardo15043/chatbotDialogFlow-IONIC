@@ -1,6 +1,55 @@
 // App Styles
 // ----------------------------------------------------------------------------
-// Put style rules here that you want to apply to the entire application. These 
-// styles are for the entire app and not just one component. Additionally, this 
-// file can hold Sass mixins, functions, and placeholder classes to be imported 
+// Put style rules here that you want to apply to the entire application. These
+// styles are for the entire app and not just one component. Additionally, this
+// file can hold Sass mixins, functions, and placeholder classes to be imported
 // and used throughout the application.
+.chatform {
+    width: 100%;
+    margin: 0 auto;
+    // margin-top: 50px;
+}
+
+ul {
+    padding: 0;
+}
+
+ul app-message-item {
+    width: 80%;
+    border-radius: 9px;
+    margin-top: 37px;
+    -webkit-box-shadow: 4px 4px 6px 0px rgba(50, 50, 50, 0.22);
+    -moz-box-shadow: 4px 4px 6px 0px rgba(50, 50, 50, 0.22);
+    box-shadow: 4px 4px 6px 0px rgba(50, 50, 50, 0.22);
+}
+
+ul app-message-item:nth-child(odd) {
+    background: #2099fe;
+    display: block;
+    float: right;
+    margin-right: 17px;
+    color: #fff;
+}
+
+ul app-message-item:nth-child(even) {
+    background: #fff;
+    display: block;
+    float: left;
+    margin-left: 17px;
+    color: #2099fe;
+}
+
+.chatform {
+    background-color: #fbfbfd;
+}
+
+.chatcontrol ion-button {
+    width: 100%;
+}
+
+.chatcontrol {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: #ffffffb3;
+}

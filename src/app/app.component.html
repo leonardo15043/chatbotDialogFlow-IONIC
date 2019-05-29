@@ -1,3 +1,4 @@
-<ion-app>
-  <ion-router-outlet></ion-router-outlet>
-</ion-app>
+<div  class="chatform">
+  <app-message-list [messages]="messages"></app-message-list>
+  <app-message-form [message]="message" [messages]="messages"></app-message-form>
+</div>
